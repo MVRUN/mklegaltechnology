@@ -1,0 +1,426 @@
+@media (max-width: 1504px) {
+    .foot-right #h2 {
+        padding-top: 0;
+    }
+}
+@media (max-width: 1280px) {
+    .container {
+        width: 79vw;
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+    .coop-input input::placeholder {
+        font-size: 14px;
+    }
+    .contacts {
+        justify-content: flex-end;
+    } 
+    .contacts span, .contacts a {
+        margin: 0;
+        margin-left: 5px;
+    }
+    .contacts span img {
+        width: 50%;
+        display: flex;
+    }
+    .navigation, .contacts, .our-advantages, .advantages {
+        flex-wrap: wrap;
+    }
+    .advantages {
+        position: relative;
+    }
+    .main-activities-text {
+        padding-bottom: 35vw;
+    }
+    .eye img {
+        width: 80%;
+    }
+    .advantages {
+        top: -2%;
+    }
+    .description {
+        padding-top: 80px;
+    }
+    .cooperation-all {
+        flex-direction: column;
+    }
+    .cooperation-box-left {
+        padding-bottom: 15px;
+    }
+    .cooperation-box-right, .cooperation-box-left, .slider-one-text p, .block-left p.fz15 {
+        width: 100%;
+    }
+    .cost-legal-serv {
+        width: 60%;
+    }
+    .confidence-list li::before {
+        left: -4vw;
+    }
+    button.commis.fz13 {
+        padding: 3px 0;
+    }
+    .slider-one-text {
+        width: 35%;
+    }
+    .lato.fz16 {
+        font-size: clamp(14px, 0.83vw, 16px);
+    }
+    .our-advantages, .advantages {
+        justify-content: space-between;
+    }
+    .our-advantages-all .content-box, .advantages .content-box {
+        margin-right: 0;
+        width: 20%;
+        margin-top: 20px;
+    }
+    .slider-two {
+        right: 2%;
+    }
+    .slider-two .slider-arrow-left {
+        left: 5%;
+    }
+    .slider-two .slider-arrow-right {
+        right: 5%;
+    }
+    .slider-three {
+        padding-top: 15vw;
+    }
+    .slide-three .content {
+        width: 49%;
+    }
+    .block-left {
+        padding: 2.6vw 0.5vw 3.12vw 3.6vw;
+    }
+}
+@media (max-width: 992px) {
+    .container {
+        margin: 0 auto;
+        padding-right: 30px;
+        padding-left: 30px;
+        width: 92vw;
+    }
+    .eye {
+        display: none;
+    }
+    .logo {
+        padding-right: 10px;
+    }
+    .language {
+        width: 20%;
+    }
+    .slider-one-arrow-left {
+        left: 4%;
+        padding: 9px 15px 9px 12px;
+    }
+    .slider-one-arrow-right {
+        right: 3%;
+        padding: 9px 12px 9px 15px;
+    }
+    .slider-one-arrow-left,
+    .slider-one-arrow-right {
+        background-color: white;
+        border-radius: 50%;
+        top: 50%;
+    }
+    .commis.fz40 {
+        font-size: clamp(16px, 2vw, 40px);
+    }
+    .lato.fz15 {
+        font-size: clamp(14px, 0.78vw, 15px);
+    }
+    button.commis.fz13 {
+        font-size: clamp(12px, 0.68vw, 13px);
+    }
+    .slider-one-text {
+        height: 18.5vw;
+        width: 44%;
+    }
+    .block-left {
+        padding: 2.6vw 3.6vw 3.12vw;
+    }
+    .serv-right img {
+        width: 6vw;
+    }
+    .bgr-cont, .slide-three, .card-top-one, footer.container {
+        flex-wrap: wrap;
+    }
+    .slide-three .content {
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+    .slide-three .lato.fz12 {
+        margin-top: 10px;
+        position: unset;
+    }
+    .commis.fz26 {
+        font-size: clamp(16px, 1.35vw, 26px);
+    }
+    .slider-three .commis.fz26 {
+        font-size: clamp(18px, 1.35vw, 26px);
+    }
+    .reviews, .services .serv-left {
+        flex-direction: column;
+    }
+    .main-activities-text {
+        padding-bottom: 42vw;
+    }
+    .card-text p, .reviews-box-left, .logo img, .slide-three .content,
+    /*.clr-one, .clr-two, .clr-three,*/ .confidence-list li, .foot-center, .foot-right {
+        width: 100%;
+    }
+    .confidence-list li {
+        margin-bottom: clamp(12px, 2vw, 35px);
+    }
+    .confidence-box-left {
+        width: 45%;
+    }
+    .confidence-list li::before {
+        left: -5.5vw;
+    }
+    .foot-center, .foot-right {
+        padding-right: 0;
+        padding-top: 15px;
+    }
+    .our-advantages-bottom-text p {
+        width: 80%;
+    }
+    .duties-top-box {
+        width: 94.6%;
+        margin-top: 10px;
+    }
+    .button-card, .reviews-box-right, .mat-right {
+        padding-top: 10px;
+    }
+    .slider-two {
+        bottom: -3.5%;
+        right: 3px;
+    }
+    .slider-arrow-left {
+        left: 13%;
+    }
+    .slider-arrow-right {
+        right: 13%;
+    }
+    .slider-two .slider-arrow-left, .slider-two .slider-arrow-right {
+        padding: 7px 14px 7px 12px;
+        background-color: white;
+        border-radius: 50%;
+    }
+    .slider-two .slider-arrow-right {
+        padding: 7px 12px 7px 14px;
+    }
+    .mat-right .lato.fz15 {
+        margin-left: 0;
+    }
+    .radio-button-box .radio-button {
+        padding: 0.5vw;
+    }
+    .serv-left {
+        align-items: end;
+    }
+    .slide-three .img-box img {
+        width: 100%;
+    }
+    .slider-three .radio-button-box {
+        margin-right: clamp(130px, 7vw, 130px);
+    }
+    .coop-input input::placeholder {
+        font-size: 13px;
+        line-height: 1;
+    }
+    .reviews {
+        padding-top: 9.47vw;
+    }
+    .logo-companies {
+        margin-top: 25px;
+    }
+}
+@media (max-width: 776px) {
+    .container {
+        width: 89vw;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    header.container {
+        padding-bottom: 2.14vw;
+    }
+    .content-top, .content-bottom {
+        flex-direction: column;
+    }
+    .content-top .contacts {
+        padding-top: 10px;
+    }
+    .content-bottom .logo {
+        padding-top: 10px;
+    }
+    .content-bottom .navigation {
+        padding-top: 15px;
+    }
+    .advantages, .our-advantages {
+        flex-wrap: wrap;
+    }
+    .advantages .content-box, .our-advantages .content-box {
+        width: 46%;
+    }
+    .description img {
+        display: none;
+    }
+    .description .block-left {
+       width: 100%;
+    }
+    .main-activities-list .serv {
+        width: 55%;
+    }
+    .main-activities-list .serv:nth-child(2n) {
+        position: relative;
+        left: 42%;
+        flex-direction: row-reverse;
+        padding: 0.78vw 2vw 1.3vw 0.78vw;
+    }
+    .main-activities-list .serv:nth-child(2n) .serv-left {
+        align-items: flex-end;
+    }
+    .slider-two {
+        right: clamp(2.7vw ,3.1vw, 3.7vw);
+    }
+    .slider-three {
+        padding-top: 25vw;
+    }
+    .card-top-one {
+        flex-direction: column;
+    }
+    .clr-one, .clr-two, .clr-three {
+        width: 100%;
+    }
+    .card-top-one img {
+        height: 80px;
+    }
+    .main-activities-list, .main-activities-text, .cooperation-all, .cost-legal-serv {
+        padding-top: 60px;
+    }
+    .cost-legal-serv, .cooperation-box-left {
+        padding-bottom: 50px;
+    }
+    .image-pen_with_notepad {
+        padding-top: 30px;
+    }
+    .duties-bottom {
+        padding-top: 10px;
+    }
+    .description {
+        padding-top: 40px;
+    }
+}
+@media (max-width: 580px) {
+    header .navigation {
+        display: contents;
+    }
+    header .navigation .nav-box {
+        padding-top: 10px;
+    }
+    .slider-one .commis.fz40 {
+        font-size: clamp(14px, 2vw, 40px);
+    }
+    .slider-one .lato.fz15 {
+        font-size: clamp(12px, 0.78vw, 15px);
+    }
+    .slider-one-text {
+        height: 21vw;
+        width: 58%;
+    }
+    .advantages, .our-advantages-all .content-box {
+        display: none;
+    }
+    .our-advantages, .advantages, .confidence, .client-get {
+        flex-direction: column;
+    }
+    .our-advantages-all .content-box {
+        width: 96.7%;
+    }
+    .advantages {
+        top: -0.3%;
+    }
+    .slider-one-text {
+        height: 21vw;
+        width: 58%;
+    }
+    .content-top, .content-bottom, .duties-box-bottom-all {
+        flex-direction: column;
+    }
+    .logo {
+        padding-right: 0;
+        padding-bottom: 10px;
+    }
+    .contacts {
+        justify-content: center;
+    }
+    .slider-one-text p {
+        margin-top: 0;
+        margin-bottom: 1.3vw;
+    }
+    .language {
+        width: 100%;
+        justify-content: center;
+    }
+    .commis.fz28 {
+        font-size: clamp(18px, 1.45vw, 28px);
+    }
+    .confidence-box-left, .confidence-box-right {
+        width: 100%;
+        padding-top: 10px
+    }
+    .main-activities-list .services .serv {
+        position: inherit;
+        width: 100%;
+    }
+    .serv-right img {
+        width: 10vw;
+    }
+    .main-activities-text {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .slider-two {
+        bottom: -1.5%;
+    }
+    .slider-three .radio-button-box {
+        margin-right: clamp(100px, 7vw, 130px);
+        margin-left: 20px;
+    }
+    .container.duties-top {
+        flex-wrap: wrap;
+    }
+    .foot-column-all {
+        flex-wrap: wrap;
+    }
+    .footer .column.one .adress-box,
+    .footer .column.two .adress-box {
+        padding-top: 30px;
+    }
+    .confidence-list li {
+        padding-left: 25px;
+    }
+    .confidence-list li::before {
+        left: -4.5vw;
+    }
+    .duties-top-box {
+        margin-right: 0
+    }
+    .slider-three {
+        padding-top: 15vw;
+    }
+}
+@media (max-width: 480px) {
+    .commis.fz20 {
+        font-size: clamp(14px, 1vw, 20px);
+    }
+    .confidence-list li {
+        width: 80%;
+    }
+}
+@media (max-width: 390px) {
+    .slide button.commis.fz13 {
+        line-height: 1;
+        width: clamp(140px,10.4vw,200px);
+    }
+}
